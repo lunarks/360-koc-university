@@ -2,10 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class GameManager : MonoBehaviour
 {
+    // Singleton Pattern
     public static GameManager instance = null;
+
+    // Language Selection Screen objects
+    private Button turkishButton;
+    private Button englishButton;
 
     void Awake()
     {
@@ -16,12 +24,4 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
 }
