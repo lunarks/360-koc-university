@@ -5,6 +5,7 @@ Repository for Computer Engineering Design (COMP 491) course.
 - Unity (2019.4.20f1)
   - Vector Graphics Package
   - Localization Package
+- VSCode
 
 ### Team
 - Atahan Kalaycı: [akalayci18]
