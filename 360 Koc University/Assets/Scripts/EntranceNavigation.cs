@@ -6,6 +6,7 @@ public class EntranceNavigation : MonoBehaviour
 {
     // Holds all the materials for the Entrance scene
     [SerializeField] Material[] entranceMaterials;
+    [SerializeField] GameObject[] entranceArrows;
 
     private GameObject entrance;
 
@@ -13,8 +14,7 @@ public class EntranceNavigation : MonoBehaviour
     void Awake()
     {
         // Fetch the Entrance game object
-       entrance = GameObject.Find("Entrance");
-
+        entrance = gameObject;
     }
 
     // Update is called once per frame
@@ -27,5 +27,15 @@ public class EntranceNavigation : MonoBehaviour
     {
         Debug.Log("You have clicked the button to change materials.");
         entrance.GetComponent<MeshRenderer>().material = entranceMaterials[i];
+        if (i == 1)
+        {
+            entranceArrows[0].SetActive(false);
+            entranceArrows[1].SetActive(true);
+        }
+        else if (i == 0)
+        {
+            entranceArrows[0].SetActive(true);
+            entranceArrows[1].SetActive(false);
+        }
     }
 }

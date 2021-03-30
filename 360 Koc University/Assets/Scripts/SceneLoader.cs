@@ -14,4 +14,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("University Map");
     }
+
+    public void LoadOdeon()
+    {
+        SceneManager.LoadScene("QuizScreen");
+    }
 }

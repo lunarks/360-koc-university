@@ -11,9 +11,8 @@ public class GameManager : MonoBehaviour
     // Singleton Pattern
     public static GameManager instance = null;
 
-    // Language Selection Screen objects
-    private Button turkishButton;
-    private Button englishButton;
+
+
 
     void Awake()
     {
