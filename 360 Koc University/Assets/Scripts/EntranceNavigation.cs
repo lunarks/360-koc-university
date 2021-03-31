@@ -10,17 +10,10 @@ public class EntranceNavigation : MonoBehaviour
 
     private GameObject entrance;
 
-    // Start is called before the first frame update
     void Awake()
     {
         // Fetch the Entrance game object
         entrance = gameObject;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void ChangeMaterial(int i)
