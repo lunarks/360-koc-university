@@ -1357,7 +1357,7 @@ GameObject:
   - component: {fileID: 684717323}
   - component: {fileID: 684717322}
   m_Layer: 5
-  m_Name: QuestionBackground
+  m_Name: Question Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1433,8 +1433,8 @@ GameObject:
   - component: {fileID: 717792065}
   - component: {fileID: 717792067}
   m_Layer: 5
-  m_Name: EnglishQuestionText
-  m_TagString: EnglishText
+  m_Name: Question Text
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,9 +1569,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:8d0f2541885193349ab54d3ce09ea41a
+      m_TableCollectionName: GUID:0329e2c3d79a0fe499e6cec5f97950a9
     m_TableEntryReference:
-      m_KeyId: 271112024064
+      m_KeyId: 340884271104
       m_Key: 
     m_FallbackState: 0
   m_FormatArguments: []
@@ -1600,6 +1600,7 @@ GameObject:
   - component: {fileID: 753353518}
   - component: {fileID: 753353520}
   - component: {fileID: 753353519}
+  - component: {fileID: 753353521}
   m_Layer: 5
   m_Name: EnglishChoice1Text
   m_TagString: EnglishText
@@ -1645,7 +1646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit
+  m_text: asdasdsa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b129742ce5d4f994eb94968a5933a618, type: 2}
   m_sharedMaterial: {fileID: -2408158107004249046, guid: b129742ce5d4f994eb94968a5933a618,
@@ -1723,6 +1724,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753353517}
   m_CullTransparentMesh: 0
+--- !u!114 &753353521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753353517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:83929e204cd4a9943a7ee3e03e9edc09
+    m_TableEntryReference:
+      m_KeyId: 75015729152
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 753353519}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &768048589
 GameObject:
   m_ObjectHideFlags: 0
