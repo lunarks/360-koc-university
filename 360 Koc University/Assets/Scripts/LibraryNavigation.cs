@@ -6,7 +6,6 @@ public class LibraryNavigation : MonoBehaviour
 {
     // Holds all the materials for the Entrance scene
     [SerializeField] Material[] libraryMaterials;
-    [SerializeField] GameObject[] libraryArrows;
 
     // Get the sphere called Library
     private GameObject library;
@@ -19,7 +18,6 @@ public class LibraryNavigation : MonoBehaviour
 
     public void ChangeMaterial(int i)
     {
-        Debug.Log("You have clicked the button to change materials.");
         library.GetComponent<MeshRenderer>().material = libraryMaterials[i];
     }
 }
