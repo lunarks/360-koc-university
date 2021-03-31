@@ -11,15 +11,15 @@
                 background-color: #333333;
                 margin-left: 0 auto;
                 margin-right: 0  auto;
+                
             }
 
-         
            .unity-box{
                border: 1px solid black;
                width: 1000px;
                height: 700px;
                position: fixed; 
-               top: 50%;
+               top: 55%;
                left: 50%;
                transform: translate(-50%, -50%);
                text-align: center;
@@ -34,6 +34,12 @@
                 font-weight: bold;
                 color: white;
                 float: right;
+                
+           }
+
+           .logo{
+               margin-left: 35%;
+               position: fixed;
            }
 
          
@@ -43,6 +49,8 @@
 
     <body>
 
+        <img src="Layer_1.png" class="logo">
+
         <button type="submit" id="out-to-in">Logout</button> 
 
         <div class="unity-box">
@@ -51,7 +59,7 @@
 
         <script>
             document.getElementById("out-to-in").addEventListener("click", toLogin);
-            
+
             function toLogin() {
               window.location.href="360login.html";
             }
