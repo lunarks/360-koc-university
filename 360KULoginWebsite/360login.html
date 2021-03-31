@@ -67,13 +67,20 @@
                     <img src="Layer_1.png" class="logo">
                     <input type="text" placeholder="Enter Username" name="username" required>
                     <input type="password" placeholder="Enter Password" name="password" required>
-                    <button type="submit">Login</button> 
+                    <button type="submit" id="in-to-out">Login</button> 
          
                 </div> 
             </div>
 
         </form>   
 
+        <script>
+            document.getElementById("in-to-out").addEventListener("click", toApp);
+            
+            function toApp() {
+              window.location.href="log-out.html";
+            }
+        </script>
 
     </body>
 </html>

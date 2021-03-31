@@ -43,13 +43,19 @@
 
     <body>
 
-        <button type="submit">Logout</button> 
+        <button type="submit" id="out-to-in">Logout</button> 
 
         <div class="unity-box">
             Unity Display
         </div>
 
-        
+        <script>
+            document.getElementById("out-to-in").addEventListener("click", toLogin);
+            
+            function toLogin() {
+              window.location.href="360login.html";
+            }
+        </script>
 
 
     </body>
