@@ -612,7 +612,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b47d6c02cdd2a342ac86d073dadf44e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 4
+  minX: -360
+  maxX: 360
+  minY: -45
+  maxY: 45
+  sensX: 100
+  sensY: 100
 --- !u!1 &336823179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3333,7 +3338,7 @@ GameObject:
   - component: {fileID: 2908446747255573198}
   - component: {fileID: 2908446747255573200}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Entrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

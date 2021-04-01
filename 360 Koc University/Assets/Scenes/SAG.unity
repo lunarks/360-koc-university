@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 69067579}
   - component: {fileID: 69067578}
   - component: {fileID: 69067581}
+  - component: {fileID: 69067582}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -217,7 +218,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b47d6c02cdd2a342ac86d073dadf44e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 4
+  minX: -360
+  maxX: 360
+  minY: -45
+  maxY: 45
+  sensX: 100
+  sensY: 100
+--- !u!114 &69067582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69067577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850106cd36e4d4a45b836045dfb74409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 3343587188859986772, guid: 030753210692bbf4085ecd769622e1e4,
+    type: 3}
 --- !u!1 &73651761
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +383,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &73651764
 MonoBehaviour:
@@ -1373,6 +1393,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1424801665917095230}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1303356083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,13 +1852,14 @@ GameObject:
   - component: {fileID: 3396244810177239073}
   - component: {fileID: 631935377802800363}
   - component: {fileID: 1424801665917095231}
+  - component: {fileID: 1424801665917095232}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1424801665917095231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1842,6 +1874,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4119317738140548247, guid: bebfd48424528634ca90779e928820de, type: 3}
+--- !u!114 &1424801665917095232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424801665917095230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6adf0ee277736e449b6c419cfddb079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!223 &1459948731269334656
 Canvas:
   m_ObjectHideFlags: 0
@@ -2354,6 +2398,7 @@ GameObject:
   - component: {fileID: 2582674840743185134}
   - component: {fileID: 2582674840743185132}
   - component: {fileID: 2582674840743185133}
+  - component: {fileID: 2582674840743185136}
   m_Layer: 5
   m_Name: Library X
   m_TagString: Untagged
@@ -2361,6 +2406,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2582674840743185136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582674840743185135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b6caa5fa34e6384a8c0edbaf2a3947e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2582674840928729888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,6 +2552,7 @@ GameObject:
   - component: {fileID: 2582674841307454471}
   - component: {fileID: 2582674841307454469}
   - component: {fileID: 2582674841307454470}
+  - component: {fileID: 2582674841307454489}
   m_Layer: 5
   m_Name: Gym X
   m_TagString: Untagged
@@ -2502,6 +2560,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2582674841307454489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582674841307454488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca391e0ec7463ca4d930dedf0f2a61a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2582674841395561064
 GameObject:
   m_ObjectHideFlags: 0
