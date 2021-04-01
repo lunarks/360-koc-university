@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 675a990f65ed031468849c0884015dc9
+guid: 8bb21a88bfa20f840a413602a148c0b3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8791617407156663858
+    second: P2_Back
+  - first:
+      213: 1989484867092917050
+    second: P3_Front
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -84,30 +90,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sgkm-6_01
+      name: P2_Back
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 664
+        width: 375
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,50 +119,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab977e550eccbc070800000000000000
-      internalID: 8127815216406165946
+      spriteID: 236b6baa379120a70800000000000000
+      internalID: 8791617407156663858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sgkm-6_1
+      name: P3_Front
       rect:
         serializedVersion: 2
-        x: 999
-        y: 663
-        width: 1
-        height: 1
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40a8a3ba7e556f790800000000000000
-      internalID: -7496710076213065212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sgkm-6_02
-      rect:
-        serializedVersion: 2
-        x: 500
+        x: 375
         y: 0
-        width: 500
-        height: 664
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+        width: 375
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daeb932b8bf93100800000000000000
-      internalID: 88378242726882001
+      spriteID: a3ba61522f11c9b10800000000000000
+      internalID: 1989484867092917050
       vertices: []
       indices: 
       edges: []
