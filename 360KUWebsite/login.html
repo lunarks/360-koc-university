@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>360KULogin</title>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+
+    <style>
+        Body {
+             margin: 0;
+             padding: 0;
+             background-image: url(languageSelectionBackground.png);
+             font-family: sans-serif;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+
+
+         } 
+      
+
+         input[type=text], input[type=text] {  
+             display: inline-block;  
+             width: 70%;   
+             margin: 8px 0;  
+             padding: 12px 20px;   
+               
+         }  
+         .box{
+             width: 320px;
+             height: 420px;
+             top: 50%;
+             left: 50%;
+             position: absolute;
+             transform: translate(-60%, -20%);
+             box-sizing: border-box;
+         }
+
+         .box button{
+             width: 114%;
+             height: 55px;
+             margin-top: 10px;
+             background-color: #990000;
+             border: #990000;
+             font-size: medium;
+             font-weight: bold;
+             color: white;
+         }
+
+         .box input{
+             width: 100%;
+         }
+         
+         .logo{
+             width: 20%;
+             height: 85px;
+             margin-bottom: 30px;
+             margin-top: 10%;
+             margin-left: 38%;
+             
+         }
+
+
+     </style>
+    
+</head>
+<body>
+    <!-- The surrounding HTML is left untouched by FirebaseUI.
+         Your app may use that space for branding, controls and other customizations.-->
+         <img src="Layer_1.png" class="logo">
+         <div id="firebaseui-auth-container"></div>
+
+<script src="fireBase.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
