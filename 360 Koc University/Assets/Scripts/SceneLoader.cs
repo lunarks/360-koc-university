@@ -47,17 +47,18 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Road to Gym scene.");
     }
 
-<<<<<<< Updated upstream
+
     public void LoadCenter()
     {
         SceneManager.LoadScene("Center");
         Debug.Log("Loaded the Center scene.");
-=======
+    }
+
     public void LoadRoadtoCenter()
     {
         SceneManager.LoadScene("RoadToCenter");
-        Debug.Log("Loaded the Bus Stop scene.");
->>>>>>> Stashed changes
+        Debug.Log("Loaded the Road to Center scene.");
+
     }
 
 }
