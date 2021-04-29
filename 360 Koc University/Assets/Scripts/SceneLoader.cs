@@ -28,4 +28,16 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("SAG");
         Debug.Log("Loaded the gym scene.");
     }
+
+    public void LoadELC()
+    {
+        SceneManager.LoadScene("ELC");
+        Debug.Log("Loaded the gym scene.");
+    }
+
+    public void LoadBusStop()
+    {
+        SceneManager.LoadScene("Bus Stop");
+        Debug.Log("Loaded the gym scene.");
+    }
 }
