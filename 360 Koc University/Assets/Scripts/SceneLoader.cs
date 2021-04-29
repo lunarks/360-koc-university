@@ -40,4 +40,10 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Bus Stop");
         Debug.Log("Loaded the Bus Stop scene.");
     }
+
+    public void LoadRoadtoGym()
+    {
+        SceneManager.LoadScene("RoadtoGym");
+        Debug.Log("Loaded the Bus Stop scene.");
+    }
 }
