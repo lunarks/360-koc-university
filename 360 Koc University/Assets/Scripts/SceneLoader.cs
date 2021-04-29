@@ -44,6 +44,13 @@ public class SceneLoader : MonoBehaviour
     public void LoadRoadtoGym()
     {
         SceneManager.LoadScene("RoadtoGym");
-        Debug.Log("Loaded the Bus Stop scene.");
+        Debug.Log("Loaded the Road to Gym scene.");
     }
+
+    public void LoadCenter()
+    {
+        SceneManager.LoadScene("Center");
+        Debug.Log("Loaded the Center scene.");
+    }
+
 }
