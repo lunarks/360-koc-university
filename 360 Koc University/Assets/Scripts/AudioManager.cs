@@ -22,7 +22,6 @@ public class AudioManager : MonoBehaviour
     {
         for (int i = 0; i < s_audiolist.Length; i++)
         {
-
             s_source.Add(new AudioSource());
             s_source[i] = gameObject.AddComponent<AudioSource>();
             s_source[i].clip = s_audiolist[i];
