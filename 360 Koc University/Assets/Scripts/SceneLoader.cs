@@ -32,12 +32,12 @@ public class SceneLoader : MonoBehaviour
     public void LoadELC()
     {
         SceneManager.LoadScene("ELC");
-        Debug.Log("Loaded the gym scene.");
+        Debug.Log("Loaded the ELC scene.");
     }
 
     public void LoadBusStop()
     {
         SceneManager.LoadScene("Bus Stop");
-        Debug.Log("Loaded the gym scene.");
+        Debug.Log("Loaded the Bus Stop scene.");
     }
 }
