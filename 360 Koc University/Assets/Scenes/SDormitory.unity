@@ -243,6 +243,7 @@ Transform:
   - {fileID: 1830099719435146059}
   - {fileID: 1132486796047176362}
   - {fileID: 8754470069580194550}
+  - {fileID: 1302496968016900026}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -654,7 +655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1302496968016900023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,11 +725,11 @@ RectTransform:
   m_GameObject: {fileID: 1302496968016900022}
   m_LocalRotation: {x: 0.5278764, y: -0.18187243, z: 0.4963344, w: 0.66477156}
   m_LocalPosition: {x: 0, y: 0, z: 1.45}
-  m_LocalScale: {x: 0.0005, y: 0.0005, z: 0.0005}
+  m_LocalScale: {x: 0.0005, y: 0.00049999997, z: 0.0005}
   m_Children:
   - {fileID: 1302496968117847932}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1069994851}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 61.93, y: 36.85, z: 96.1}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -925,7 +926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &1830099719435146056
 Canvas:
   m_ObjectHideFlags: 0
@@ -1242,7 +1243,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6314b083c8ce6e7429a6650afd4abe2a, type: 2}
+  - {fileID: 2100000, guid: eb6dd91060a8004468017ff11fd38360, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2796,13 +2797,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9209346990182536662}
-  m_LocalRotation: {x: -0, y: -0.31747034, z: 0, w: -0.94826823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -322.98, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &9209346990182536660
 Camera:
   m_ObjectHideFlags: 0
