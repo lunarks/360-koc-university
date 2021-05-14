@@ -68,4 +68,11 @@ public class SceneLoader : MonoBehaviour
 
     }
 
+    public void LoadHealthCenter()
+    {
+        SceneManager.LoadScene("HealthCenter");
+        Debug.Log("Loaded the HealthCenter scene.");
+
+    }
+
 }
