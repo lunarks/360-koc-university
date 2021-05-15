@@ -75,6 +75,11 @@ public class SceneLoader : MonoBehaviour
 
     }
 
-    
+    public void LoadSOS2()
+    {
+        SceneManager.LoadScene("SOS2");
+        Debug.Log("Loaded the SOS2 scene.");
+
+    }
 
 }
