@@ -82,4 +82,11 @@ public class SceneLoader : MonoBehaviour
 
     }
 
+    public void LoadHenryFord()
+    {
+        SceneManager.LoadScene("HenryFord");
+        Debug.Log("Loaded the HenryFord scene.");
+
+    }
+
 }
