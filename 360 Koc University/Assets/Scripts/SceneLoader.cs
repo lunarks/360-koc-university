@@ -5,88 +5,156 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadTutorialScene()
-    {
-        SceneManager.LoadScene("Tutorial");
-        Debug.Log("Loaded the tutorial scene.");
-    }
-
-    public void LoadOdeon()
-    {
-        SceneManager.LoadScene("QuizScreen");
-        Debug.Log("Loaded the odeon scene.");
-    }
-
-    public void LoadSKL()
-    {
-        SceneManager.LoadScene("SKL");
-        Debug.Log("Loaded the library scene.");
-    }
-
-    public void LoadSAG()
-    {
-        SceneManager.LoadScene("SAG");
-        Debug.Log("Loaded the gym scene.");
-    }
-
-    public void LoadELC()
-    {
-        SceneManager.LoadScene("ELC");
-        Debug.Log("Loaded the ELC scene.");
-    }
-
+    // Bus Stop
     public void LoadBusStop()
     {
         SceneManager.LoadScene("Bus Stop");
         Debug.Log("Loaded the Bus Stop scene.");
     }
 
-    public void LoadRoadtoGym()
+    // CASE Indoors
+    public void LoadCASEIndoors()
     {
-        SceneManager.LoadScene("RoadtoGym");
-        Debug.Log("Loaded the Road to Gym scene.");
+        SceneManager.LoadScene("CASE_Indoors");
+        Debug.Log("Loaded the CASE Indoors scene.");
     }
 
+    // CASE Outdoors
+    public void LoadCASEOutdoors()
+    {
+        SceneManager.LoadScene("CASE_Outdoors");
+        Debug.Log("Loaded the CASE Outdoors scene.");
+    }
 
+    // Center
     public void LoadCenter()
     {
         SceneManager.LoadScene("Center");
         Debug.Log("Loaded the Center scene.");
     }
 
-    public void LoadRoadtoCenter()
+    // Dormitory
+    public void LoadDormitory()
     {
-        SceneManager.LoadScene("RoadToCenter");
-        Debug.Log("Loaded the Road to Center scene.");
-
+        SceneManager.LoadScene("Dormitory");
+        Debug.Log("Loaded the Dormitory scene.");
     }
 
-    public void LoadSOS()
+    // ELC
+    public void LoadELC()
     {
-        SceneManager.LoadScene("SOS");
-        Debug.Log("Loaded the SOS scene.");
-
+        SceneManager.LoadScene("ELC");
+        Debug.Log("Loaded the ELC scene.");
     }
 
+    // Health Center
     public void LoadHealthCenter()
     {
         SceneManager.LoadScene("HealthCenter");
         Debug.Log("Loaded the HealthCenter scene.");
+    }
 
+    // Henry Ford
+    public void LoadHenryFord()
+    {
+        SceneManager.LoadScene("HenryFord");
+        Debug.Log("Loaded the HenryFord scene.");
+    }
+
+    // Odeon
+    public void LoadOdeon()
+    {
+        SceneManager.LoadScene("Odeon");
+        Debug.Log("Loaded the Odeon scene.");
+    }
+
+    // Parking Lot
+    public void LoadParkingLot()
+    {
+        SceneManager.LoadScene("ParkingLot");
+        Debug.Log("Loaded the Parking Lot scene.");
+    }
+
+    // Portal of Knowledge
+    public void LoadPortalOfKnowledge()
+    {
+        SceneManager.LoadScene("PortalOfKnowledge");
+        Debug.Log("Loaded the Portal of Knowledge scene.");
+    }
+
+    // Road to Center
+    public void LoadRoadtoCenter()
+    {
+        SceneManager.LoadScene("RoadToCenter");
+        Debug.Log("Loaded the Road to Center scene.");
+    }
+
+    // Road to Gym
+    public void LoadRoadtoGym()
+    {
+        SceneManager.LoadScene("RoadtoGym");
+        Debug.Log("Loaded the Road to Gym scene.");
+    }
+
+    // Gym
+    public void LoadSAG()
+    {
+        SceneManager.LoadScene("SAG");
+        Debug.Log("Loaded the gym scene.");
+    }
+
+    // S Dormitory
+    public void LoadSDormitory()
+    {
+        SceneManager.LoadScene("SDormitory");
+        Debug.Log("Loaded the S Dormitory scene.");
+    }
+
+    // SGKM
+    public void LoadSGKM()
+    {
+        SceneManager.LoadScene("SGKM");
+        Debug.Log("Loaded the SGKM scene.");
+    }
+
+    // SKL
+    public void LoadSKL()
+    {
+        SceneManager.LoadScene("SKL");
+        Debug.Log("Loaded the library scene.");
+    }
+
+    // SNA
+    public void LoadSNA()
+    {
+        SceneManager.LoadScene("SNA");
+        Debug.Log("Loaded the SNA scene.");
+    }
+
+    // SOS
+    public void LoadSOS()
+    {
+        SceneManager.LoadScene("SOS");
+        Debug.Log("Loaded the SOS scene.");
     }
 
     public void LoadSOS2()
     {
         SceneManager.LoadScene("SOS2");
         Debug.Log("Loaded the SOS2 scene.");
-
     }
 
-    public void LoadHenryFord()
+    // Student Center
+    public void LoadStudentCenter()
     {
-        SceneManager.LoadScene("HenryFord");
-        Debug.Log("Loaded the HenryFord scene.");
-
+        SceneManager.LoadScene("StudentCenter");
+        Debug.Log("Loaded the StudentCenter scene.");
     }
 
+    // Tower
+    public void LoadTower()
+    {
+        SceneManager.LoadScene("Tower");
+        Debug.Log("Loaded the Tower scene.");
+    }
 }
