@@ -47,6 +47,13 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ELC scene.");
     }
 
+    // ENG
+    public void LoadENG()
+    {
+        SceneManager.LoadScene("ENG");
+        Debug.Log("Loaded the ENG scene.");
+    }
+
     // Health Center
     public void LoadHealthCenter()
     {
@@ -156,5 +163,12 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Tower");
         Debug.Log("Loaded the Tower scene.");
+    }
+
+    // Tunnel
+    public void LoadTunnel()
+    {
+        SceneManager.LoadScene("Tunnel");
+        Debug.Log("Loaded the Tunnel scene.");
     }
 }
