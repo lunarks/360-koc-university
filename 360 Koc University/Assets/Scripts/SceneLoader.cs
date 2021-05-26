@@ -54,6 +54,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ENG scene.");
     }
 
+    public void LoadENGtoSOS()
+    {
+        SceneManager.LoadScene("ENGtoSOS");
+        Debug.Log("Loaded the ENGtoSOS scene.");
+    }
+
     // Health Center
     public void LoadHealthCenter()
     {
