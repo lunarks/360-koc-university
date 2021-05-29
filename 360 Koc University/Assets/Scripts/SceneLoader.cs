@@ -80,6 +80,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the HenryFord scene.");
     }
 
+    public void LoadHenryFordtoCenter()
+    {
+        SceneManager.LoadScene("HenryFordtoCenter");
+        Debug.Log("Loaded the HenryFord to Center scene.");
+    }
+
     // Odeon
     public void LoadOdeon()
     {
