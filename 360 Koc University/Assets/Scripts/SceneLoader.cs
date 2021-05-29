@@ -53,6 +53,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ELC scene.");
     }
 
+    public void LoadELCtoRoadToGym()
+    {
+        SceneManager.LoadScene("ELCtoRoadToGym");
+        Debug.Log("Loaded the ELC to RoadToGym scene.");
+    }
+
     // ENG
     public void LoadENG()
     {
