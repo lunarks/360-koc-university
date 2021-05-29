@@ -101,6 +101,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Portal of Knowledge scene.");
     }
 
+    public void LoadPortaltoHenryFord()
+    {
+        SceneManager.LoadScene("PortaltoHenryFord");
+        Debug.Log("Loaded the Portal of Knowledge to Henry Ford scene.");
+    }
+
     // Road to Center
     public void LoadRoadtoCenter()
     {
