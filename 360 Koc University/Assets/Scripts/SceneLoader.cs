@@ -40,6 +40,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Dormitory scene.");
     }
 
+    public void LoadDormitorytoHenryFord()
+    {
+        SceneManager.LoadScene("DormitorytoHenryFord");
+        Debug.Log("Loaded the Henry Ford scene.");
+    }
+
     // ELC
     public void LoadELC()
     {
