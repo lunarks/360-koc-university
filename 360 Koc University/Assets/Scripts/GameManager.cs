@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     // Makes the instance accessible by any script
     public static GameManager instance = null;
 
+    public bool isTrophyCollected = false;
+    public bool isStaplerCollected = false;
+
     void Awake()
     {
         // Handling the GameManager script
@@ -25,10 +28,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        isTrophyCollected();
-        isStaplerCollected();
+       
     }
 
+    /*
     private bool isTrophyCollected()
     {
         if (GameObject.Find("Trophy") == null)
@@ -58,6 +61,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    */
 
 
 
