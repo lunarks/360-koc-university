@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
     public bool isTrophyCollected = false;
     public bool isStaplerCollected = false;
 
+
+    public bool isTurkishLangaugeSelected = false;
+    public bool isEnglishLanguageSelected = false;
+
     void Awake()
     {
         // Handling the GameManager script

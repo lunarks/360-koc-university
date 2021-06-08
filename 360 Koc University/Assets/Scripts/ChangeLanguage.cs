@@ -5,18 +5,22 @@ using UnityEngine.Localization.Settings;
 
 public class ChangeLanguage : MonoBehaviour
 {
+    public GameObject gameManager;
+
     /*
      * Checks which language was selected and changes the game texts accordingly.
      */
     public void ActivateTurkishLanguage()
     {
         Debug.Log("Loading the application in Turkish.");
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("tr");
+        gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected = true;
+        // LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("tr");
     }
 
     public void ActivateEnglishLanguage()
     {
         Debug.Log("Loading the application in English.");
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("en");
+        gameManager.GetComponent<GameManager>().isEnglishLanguageSelected = true;
+        // LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("en");
     }
 }
