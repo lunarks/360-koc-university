@@ -14,6 +14,7 @@ public class ChangeLanguage : MonoBehaviour
     {
         Debug.Log("Loading the application in Turkish.");
         gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected = true;
+        gameManager.GetComponent<GameManager>().isEnglishLanguageSelected = false;
         // LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("tr");
     }
 
@@ -21,6 +22,7 @@ public class ChangeLanguage : MonoBehaviour
     {
         Debug.Log("Loading the application in English.");
         gameManager.GetComponent<GameManager>().isEnglishLanguageSelected = true;
+        gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected = false;
         // LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.GetLocale("en");
     }
 }
