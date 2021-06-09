@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class TreasureHuntManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject gameManager;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (gameManager.GetComponent<GameManager>().isTrophyCollected)
+        {
+            
+        }
     }
 }

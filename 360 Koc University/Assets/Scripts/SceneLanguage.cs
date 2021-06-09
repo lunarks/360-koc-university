@@ -29,13 +29,15 @@ public class SceneLanguage : MonoBehaviour
             Destroy(boyMentor);
             girlMentor.SetActive(true);
             Destroy(mapCanvasEnglish);
+            Destroy(settingsCanvasEnglish);
         }
 
         if (isLanguageEnglish)
         {
             boyMentor.SetActive(true);
             Destroy(girlMentor);
-            Destroy(mapCanvasEnglish);
+            Destroy(mapCanvasTurkish);
+            Destroy(settingsCanvasTurkish);
         }
     }
 
