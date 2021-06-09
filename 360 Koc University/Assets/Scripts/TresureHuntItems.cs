@@ -6,12 +6,15 @@ public class TresureHuntItems : MonoBehaviour
 {
     public GameObject gameManager;
 
+    // Canvas Texts
     public GameObject englishTexts;
     public GameObject turkishTexts;
 
+    // Trophy
     public GameObject trophyQuestionMark;
     public GameObject trophyModel;
 
+    // Stapler
     public GameObject staplerQuestionMark;
     public GameObject staplerModel;
 

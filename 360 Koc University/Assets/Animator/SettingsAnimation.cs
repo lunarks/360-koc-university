@@ -14,12 +14,6 @@ public class SettingsAnimation : MonoBehaviour
         animator = settingsCanvas.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void slideInAnimation()
     {
         animator.SetBool("openSettings", true);

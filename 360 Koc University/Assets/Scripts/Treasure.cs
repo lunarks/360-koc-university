@@ -10,17 +10,14 @@ public class Treasure : MonoBehaviour
     private void OnMouseDown()
     {
         if (gameObject.tag == "Trophy")
+        {
+            Debug.Log("Collected the trophy object.");
             gameManager.GetComponent<GameManager>().isTrophyCollected = true;
+        }
 
         if (gameObject.tag == "Stapler")
             gameManager.GetComponent<GameManager>().isStaplerCollected = true;
 
         Destroy(gameObject);
     }
-
-    private void Update()
-    {
-
-    }
-
 }
