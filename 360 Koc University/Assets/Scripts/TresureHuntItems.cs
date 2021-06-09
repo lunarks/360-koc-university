@@ -21,11 +21,15 @@ public class TresureHuntItems : MonoBehaviour
     private bool turkish;
     private bool english;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         trophy = gameManager.GetComponent<GameManager>().isTrophyCollected;
         stapler = gameManager.GetComponent<GameManager>().isStaplerCollected;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
         turkish = gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected;
         english = gameManager.GetComponent<GameManager>().isEnglishLanguageSelected;
     }

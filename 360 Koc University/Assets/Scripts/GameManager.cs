@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     public bool isTrophyCollected = false;
     public bool isStaplerCollected = false;
 
-
     public bool isTurkishLangaugeSelected = false;
     public bool isEnglishLanguageSelected = false;
 
@@ -29,44 +28,4 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
-
-    void Update()
-    {
-       
-    }
-
-    /*
-    private bool isTrophyCollected()
-    {
-        if (GameObject.Find("Trophy") == null)
-        {
-            Debug.Log("Trophy collected.");
-            GameObject gymX = GameObject.Find("Gym X");
-            Destroy(gymX);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    private bool isStaplerCollected()
-    {
-        if (GameObject.Find("Stapler") == null)
-        {
-            GameObject libX = GameObject.Find("Library X");
-            Destroy(libX);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    */
-
-
-
 }
