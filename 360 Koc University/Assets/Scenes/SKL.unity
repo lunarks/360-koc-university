@@ -266,7 +266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &338361242
 Transform:
   m_ObjectHideFlags: 0
@@ -16817,6 +16817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7768104003181852717}
   - component: {fileID: 6955257410281923224}
+  - component: {fileID: 6955257410281923225}
   m_Layer: 0
   m_Name: Stapler
   m_TagString: Stapler
@@ -16838,6 +16839,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 3343587188859986772, guid: 030753210692bbf4085ecd769622e1e4,
     type: 3}
+--- !u!136 &6955257410281923225
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6955257410281923223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.38469368
+  m_Height: 2.6026404
+  m_Direction: 0
+  m_Center: {x: -0.008407474, y: 0.10000001, z: -0.018564923}
 --- !u!223 &6961915591744754368
 Canvas:
   m_ObjectHideFlags: 0
@@ -16960,7 +16975,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 55b99206dbe847241ba0a9a24051182c, type: 2}
+  - {fileID: 2100000, guid: ee391dafdc371d14789f6e4be88c20fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
