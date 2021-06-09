@@ -12,14 +12,12 @@ public class AudioManager : MonoBehaviour
 
     List<AudioSource> s_source = new List<AudioSource>();
 
-    void Awake()
-    {
-        instance = this;
-    }
+   
 
 
     void Start()
     {
+        instance = this;
         for (int i = 0; i < s_audiolist.Length; i++)
         {
             s_source.Add(new AudioSource());
@@ -31,6 +29,11 @@ public class AudioManager : MonoBehaviour
     public void s_playsound(int s)
     {
         s_source[s].Play();
+    }
+
+    public void s_stopsound(int s)
+    {
+        s_source[s].Stop();
     }
 }
         

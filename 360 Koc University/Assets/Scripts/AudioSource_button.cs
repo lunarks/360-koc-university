@@ -9,4 +9,10 @@ public class AudioSource_button : MonoBehaviour
         AudioManager.instance.s_playsound(s);
 
     }
+
+    public void stop_sound(int s)
+    {
+        AudioManager.instance.s_stopsound(s);
+
+    }
 }
