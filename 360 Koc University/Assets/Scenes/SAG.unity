@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 69067579}
   - component: {fileID: 69067578}
   - component: {fileID: 69067581}
+  - component: {fileID: 69067582}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -223,6 +224,22 @@ MonoBehaviour:
   maxY: 45
   sensX: 100
   sensY: 100
+--- !u!114 &69067582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69067577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &73651761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,7 +2535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 3343587188859986772, guid: 030753210692bbf4085ecd769622e1e4,
     type: 3}
-  trophyObject: {fileID: 0}
+  trophyObject: {fileID: 1424801665917095230}
   staplerObject: {fileID: 0}
 --- !u!1 &1172533415
 GameObject:
@@ -8798,6 +8815,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 7903003175172022458}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2031269095}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -15363,6 +15391,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 7903003175172022458}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2031269095}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:

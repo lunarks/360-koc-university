@@ -3,21 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Treasure : MonoBehaviour
+public class Treasure : MonoBehaviour, IPointerClickHandler
 {
     public GameObject gameManager;
 
-    private void OnMouseDown()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if (gameObject.tag == "Trophy")
+        if (eventData.button == PointerEventData.InputButton.Left)
         {
-            Debug.Log("Collected the trophy object.");
+            Debug.Log("Left Mouse Button Clicked on: " + name);
             gameManager.GetComponent<GameManager>().isTrophyCollected = true;
+            Destroy(gameObject);
         }
-
-        if (gameObject.tag == "Stapler")
-            gameManager.GetComponent<GameManager>().isStaplerCollected = true;
-
-        Destroy(gameObject);
     }
 }
