@@ -40,11 +40,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Dormitory scene.");
     }
 
-    public void LoadDormitorytoHenryFord()
-    {
-        SceneManager.LoadScene("DormitorytoHenryFord");
-        Debug.Log("Loaded the Henry Ford scene.");
-    }
+
 
     // ELC
     public void LoadELC()
@@ -53,11 +49,6 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ELC scene.");
     }
 
-    public void LoadELCtoRoadToGym()
-    {
-        SceneManager.LoadScene("ELCtoRoadToGym");
-        Debug.Log("Loaded the ELC to RoadToGym scene.");
-    }
 
     // ENG
     public void LoadENG()
@@ -66,11 +57,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ENG scene.");
     }
 
-    public void LoadENGtoSOS()
-    {
-        SceneManager.LoadScene("ENGtoSOS");
-        Debug.Log("Loaded the ENGtoSOS scene.");
-    }
+
 
     // Health Center
     public void LoadHealthCenter()
@@ -86,11 +73,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the HenryFord scene.");
     }
 
-    public void LoadHenryFordtoCenter()
-    {
-        SceneManager.LoadScene("HenryFordtoCenter");
-        Debug.Log("Loaded the HenryFord to Center scene.");
-    }
+  
 
     // Odeon
     public void LoadOdeon()
@@ -113,11 +96,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Portal of Knowledge scene.");
     }
 
-    public void LoadPortaltoHenryFord()
-    {
-        SceneManager.LoadScene("PortaltoHenryFord");
-        Debug.Log("Loaded the Portal of Knowledge to Henry Ford scene.");
-    }
+
 
     // Road to Center
     public void LoadRoadtoCenter()
@@ -175,11 +154,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the SOS scene.");
     }
 
-    public void LoadSOS2()
-    {
-        SceneManager.LoadScene("SOS2");
-        Debug.Log("Loaded the SOS2 scene.");
-    }
+    
 
     // Student Center
     public void LoadStudentCenter()
