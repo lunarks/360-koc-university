@@ -44,12 +44,6 @@ public class SceneLanguage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        if (isLanguageTurkish)
-            boyMentor.SetActive(false);
-
-        if (isLanguageEnglish)
-            girlMentor.SetActive(false);
-        */
+        
     }
 }
