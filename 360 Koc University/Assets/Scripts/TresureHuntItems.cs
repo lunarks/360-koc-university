@@ -39,7 +39,7 @@ public class TresureHuntItems : MonoBehaviour
             englishTexts.SetActive(false);
         }
 
-        if (englishTexts)
+        if (english)
         {
             turkishTexts.SetActive(false);
             englishTexts.SetActive(true);

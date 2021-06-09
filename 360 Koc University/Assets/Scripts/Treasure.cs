@@ -9,10 +9,10 @@ public class Treasure : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (gameObject.CompareTag("Trophy"))
+        if (gameObject.tag == "Trophy")
             gameManager.GetComponent<GameManager>().isTrophyCollected = true;
 
-        if (gameObject.CompareTag("Stapler"))
+        if (gameObject.tag == "Stapler")
             gameManager.GetComponent<GameManager>().isStaplerCollected = true;
 
         Destroy(gameObject);
