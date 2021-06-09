@@ -13,6 +13,7 @@ public class Treasure : MonoBehaviour, IPointerClickHandler
         {
             Debug.Log("Left Mouse Button Clicked on: " + name);
             gameManager.GetComponent<GameManager>().isTrophyCollected = true;
+            Debug.Log("Added " + name + " to the inventory.");
             Destroy(gameObject);
         }
     }
