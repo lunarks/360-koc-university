@@ -2447,6 +2447,7 @@ GameObject:
   - component: {fileID: 972421851}
   - component: {fileID: 972421850}
   - component: {fileID: 972421849}
+  - component: {fileID: 972421853}
   m_Layer: 5
   m_Name: Treasure Hunt Canvas
   m_TagString: Untagged
@@ -2543,6 +2544,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &972421853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972421848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022bfbfa85c472d4d892441bde57a469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 3343587188859986772, guid: 030753210692bbf4085ecd769622e1e4,
+    type: 3}
+  englishTexts: {fileID: 1600259846}
+  turkishTexts: {fileID: 1908284965}
+  trophyQuestionMark: {fileID: 1645008132}
+  trophyModel: {fileID: 8305631427032329978}
+  staplerQuestionMark: {fileID: 8820427}
+  staplerModel: {fileID: 1664246787782541561}
 --- !u!1 &1002536338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3306,7 +3327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1600259847
 Transform:
   m_ObjectHideFlags: 0
@@ -7428,7 +7449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &2743971528471687412
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7552,7 +7573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &3020676180150946449
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8064,7 +8085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &3322188914398038246
 GameObject:
   m_ObjectHideFlags: 0
@@ -15432,8 +15453,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 8230076881946898162}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15441,7 +15462,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 3651985763301825484}
         m_MethodName: SetActive
@@ -15454,7 +15475,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8412822835082771199}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -15463,7 +15484,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &3651985762673940430
 MonoBehaviour:
@@ -16159,7 +16180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &3944068330151593075
 GameObject:
   m_ObjectHideFlags: 0
@@ -19297,7 +19318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &5647612267441071089
 GameObject:
   m_ObjectHideFlags: 0
@@ -19313,7 +19334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &5689903722783165375
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21132,7 +21153,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3651985763301825484}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -21143,8 +21164,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
+      - m_Target: {fileID: 8230076881946898162}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22725,7 +22746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7809467518961957921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24499,7 +24520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &8966055866708079011
 GameObject:
   m_ObjectHideFlags: 0
@@ -24515,7 +24536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &9063143913198415050
 GameObject:
   m_ObjectHideFlags: 0
