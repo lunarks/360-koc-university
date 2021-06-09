@@ -20,19 +20,7 @@ public class Treasure : MonoBehaviour
 
     private void Update()
     {
-        /*
-        if (gameManager.GetComponent<GameManager>().isTrophyCollected)
-        {
-            if (gameObject.tag == "Trophy")
-                gameObject.SetActive(false);
-        }
-        */
 
-        if (gameManager.GetComponent<GameManager>().isStaplerCollected)
-        {
-            if (gameObject.tag == "Stapler")
-                gameObject.SetActive(false);
-        }
     }
 
 }

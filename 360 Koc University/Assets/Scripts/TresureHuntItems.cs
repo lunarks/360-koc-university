@@ -29,5 +29,11 @@ public class TresureHuntItems : MonoBehaviour
             turkishTexts.SetActive(false);
             englishTexts.SetActive(true);
         }
+
+        if (gameManager.GetComponent<GameManager>().isTrophyCollected)
+        {
+            trophyQuestionMark.SetActive(false);
+            trophyModel.SetActive(true);
+        }
     }
 }
