@@ -1,0 +1,67 @@
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 360 Koc University</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Unity Page</title>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/build.json", {onProgress: UnityProgress});
+    </script>
+
+    <style>
+
+    Body{
+        background-color: black;
+    }
+
+    button{
+       background-color: #990000;
+       border: #990000;
+       font-size: medium;
+       font-weight: bold;
+       color: white;
+       float: right;
+       padding-bottom: 6px;
+  }
+
+    </style>
+  </head>
+  <body>
+
+    <img src="360 Koc Uni Logo 3.svg" class="logo" width="250" height="106.533">
+
+    <button type="submit" id="out-to-in">Logout</button>
+
+
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 1280px; height: 720px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">360 Koc University</div>
+      </div>
+    </div>
+
+    <script src="fireBase.js"></script>
+<script src="main.js"></script>
+
+<script>
+    document.getElementById("out-to-in").addEventListener("click", toLogin);
+
+    function toLogin() {
+     window.location.href="login.html";
+    }
+</script>
+
+
+  </body>
+</html>
