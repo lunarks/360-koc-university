@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class GameManager : MonoBehaviour
 {
-    // Singleton Pattern
-    // Makes the instance accessible by any script
-    // public static GameManager instance = null;
-
+    /*
+     *  Accessible from all the scripts
+     */
     static public bool isTrophyCollected = false;
     static public bool isStaplerCollected = false;
 
