@@ -11,4 +11,6 @@ public class GameManager : MonoBehaviour
 
     static public bool isTurkishLangaugeSelected = false;
     static public bool isEnglishLanguageSelected = false;
+
+    static public bool isTutorialCompleted = false;
 }
