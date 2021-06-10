@@ -21,3 +21,6 @@ public class TreasureHuntManager : MonoBehaviour
         }
     }
 }
+
+
+
