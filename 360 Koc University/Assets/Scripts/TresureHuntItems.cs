@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class TresureHuntItems : MonoBehaviour
 {
-    public GameObject gameManager;
-
     // Canvas Texts
     public GameObject englishTexts;
     public GameObject turkishTexts;
@@ -21,19 +19,19 @@ public class TresureHuntItems : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected)
+        if (GameManager.isTurkishLangaugeSelected)
         {
             turkishTexts.SetActive(true);
             englishTexts.SetActive(false);
         }
 
-        if (gameManager.GetComponent<GameManager>().isEnglishLanguageSelected)
+        if (GameManager.isEnglishLanguageSelected)
         {
             turkishTexts.SetActive(false);
             englishTexts.SetActive(true);
         }
 
-        if (gameManager.GetComponent<GameManager>().isTrophyCollected)
+        if (GameManager.isTrophyCollected)
         {
             trophyQuestionMark.SetActive(false);
             trophyModel.SetActive(true);

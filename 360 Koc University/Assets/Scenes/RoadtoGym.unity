@@ -1515,20 +1515,7 @@ MonoBehaviour:
   maxY: 45
   sensX: 100
   sensY: 100
---- !u!114 &3983594788176627914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3983594788176627917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 850106cd36e4d4a45b836045dfb74409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 3343587188859986772, guid: 030753210692bbf4085ecd769622e1e4,
-    type: 3}
+  turnSpeed: 4
 --- !u!1 &3983594788176627917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1528,6 @@ GameObject:
   - component: {fileID: 3983594788176627919}
   - component: {fileID: 3983594788176627918}
   - component: {fileID: 3983594788176627913}
-  - component: {fileID: 3983594788176627914}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera

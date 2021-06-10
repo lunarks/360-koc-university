@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class SceneLanguage : MonoBehaviour
 {
-    public GameObject gameManager;
-
     public GameObject boyMentor;
     public GameObject girlMentor;
 
@@ -21,8 +19,8 @@ public class SceneLanguage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isLanguageTurkish = gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected;
-        isLanguageEnglish = gameManager.GetComponent<GameManager>().isEnglishLanguageSelected;
+        isLanguageTurkish = GameManager.isTurkishLangaugeSelected;
+        isLanguageEnglish = GameManager.isEnglishLanguageSelected;
 
         if (isLanguageTurkish)
         {

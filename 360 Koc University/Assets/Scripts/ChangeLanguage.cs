@@ -13,14 +13,22 @@ public class ChangeLanguage : MonoBehaviour
     public void ActivateTurkishLanguage()
     {
         Debug.Log("Loading the application in Turkish.");
+        GameManager.isTurkishLangaugeSelected = true;
+        GameManager.isEnglishLanguageSelected = false;
+        /*
         gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected = true;
         gameManager.GetComponent<GameManager>().isEnglishLanguageSelected = false;
+        */
     }
 
     public void ActivateEnglishLanguage()
     {
         Debug.Log("Loading the application in English.");
+        GameManager.isTurkishLangaugeSelected = false;
+        GameManager.isEnglishLanguageSelected = true;
+        /*
         gameManager.GetComponent<GameManager>().isEnglishLanguageSelected = true;
         gameManager.GetComponent<GameManager>().isTurkishLangaugeSelected = false;
+        */
     }
 }
