@@ -38,10 +38,4 @@ public class SceneLanguage : MonoBehaviour
             Destroy(settingsCanvasTurkish);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

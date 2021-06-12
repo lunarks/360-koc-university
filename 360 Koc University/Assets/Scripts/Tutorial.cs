@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
+    // Main Canvas
+    public GameObject mainCanvas;
+
     // Turkish
     public GameObject tutorialCanvasTurkish;
     public GameObject[] turkishElements;
@@ -94,6 +97,7 @@ public class Tutorial : MonoBehaviour
 
             case 5:
                 GameManager.isTutorialCompleted = true;
+                mainCanvas.SetActive(true);
                 break;
         } 
     }
@@ -128,6 +132,7 @@ public class Tutorial : MonoBehaviour
 
             case 5:
                 GameManager.isTutorialCompleted = true;
+                mainCanvas.SetActive(true);
                 break;
         }
     }

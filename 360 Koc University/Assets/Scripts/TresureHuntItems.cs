@@ -36,5 +36,11 @@ public class TresureHuntItems : MonoBehaviour
             trophyQuestionMark.SetActive(false);
             trophyModel.SetActive(true);
         }
+
+        if (GameManager.isStaplerCollected)
+        {
+            staplerQuestionMark.SetActive(false);
+            staplerModel.SetActive(true);
+        }
     }
 }
