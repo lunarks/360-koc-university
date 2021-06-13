@@ -427,6 +427,13 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the SOS scene.");
     }
 
+    public void LoadSOSFromSGKM()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("SOSFromSGKM");
+        Debug.Log("Loaded the SOS scene.");
+    }
+
     public void LoadSOSFromTunnelandOdeon()
     {
         GameManager.isPlayerOutside = true;
