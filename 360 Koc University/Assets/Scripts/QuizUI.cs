@@ -24,6 +24,7 @@ public class QuizUI : MonoBehaviour
 
     public GameObject GameOverPanel { get => gameOverPanel; }
     public GameObject CongratsPanel { get => congratsPanel; }
+    public GameObject GamePanel { get => gameMenuPanel; }
 
     // Start is called before the first frame update
     void Start()

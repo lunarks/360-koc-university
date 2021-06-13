@@ -96,6 +96,7 @@ public class QuizManager : MonoBehaviour
             if(lifeRemaining == 0)
             {
                 gameStatus = GameStatus.NEXT;
+                quizUI.GamePanel.SetActive(false);
                 quizUI.GameOverPanel.SetActive(true);
             }
         }
@@ -116,6 +117,7 @@ public class QuizManager : MonoBehaviour
         if (scoreCount == 250  && lifeRemaining != 0)
         {
             gameStatus = GameStatus.NEXT;
+            quizUI.GamePanel.SetActive(false);
             quizUI.CongratsPanel.SetActive(true);
         }
 
