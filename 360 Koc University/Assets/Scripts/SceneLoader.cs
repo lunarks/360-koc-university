@@ -56,10 +56,10 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the CASE Indoors scene.");
     }
 
-    public void LoadCASEIndoorsFromOdeon()
+    public void LoadCASEIndoorsFromOdeonCASEEntrance()
     {
         GameManager.isPlayerOutside = false;
-        SceneManager.LoadScene("CASE_IndoorsFromOdeon");
+        SceneManager.LoadScene("CASE_IndoorsFromOdeonCASEEntrance");
         Debug.Log("Loaded the CASE Indoors scene.");
     }
 
