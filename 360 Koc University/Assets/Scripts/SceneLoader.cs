@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    // 360 Video
+    public void LoadVideo()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("360Video");
+        Debug.Log("Loaded the 360 Video scene.");
+    }
+
     // Loads the mini-quiz game
     public void LoadQuizGame()
     {
@@ -48,11 +56,39 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the CASE Indoors scene.");
     }
 
+    public void LoadCASEIndoorsFromOdeon()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("CASE_IndoorsFromOdeon");
+        Debug.Log("Loaded the CASE Indoors scene.");
+    }
+
+    public void LoadCASEIndoorsFromOdeonNero()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("CASE_IndoorsFromOdeonNero");
+        Debug.Log("Loaded the CASE Indoors scene.");
+    }
+
     // CASE Outdoors
     public void LoadCASEOutdoors()
     {
         GameManager.isPlayerOutside = true;
         SceneManager.LoadScene("CASE_Outdoors");
+        Debug.Log("Loaded the CASE Outdoors scene.");
+    }
+
+    public void LoadCASEOutdoorsFromSOS()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CASE_OutdoorsFromSOS");
+        Debug.Log("Loaded the CASE Outdoors scene.");
+    }
+
+    public void LoadCASEOutdoorsFromVideo()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CASE_OutdoorsFromVideo");
         Debug.Log("Loaded the CASE Outdoors scene.");
     }
 
@@ -64,6 +100,56 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Center scene.");
     }
 
+    public void LoadCenterFromSKL()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromSKL");
+        Debug.Log("Loaded the Center scene.");
+    }
+    
+    public void LoadCenterFromTower()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromTower");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+    public void LoadCenterFromHenryFord()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromHenryFord");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+    public void LoadCenterFromCASEOutdoors()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromCASE_Outdoors");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+    public void LoadCenterFromOdeon()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromOdeon");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+    public void LoadCenterFromPortalOfKnowledge()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromPortalOfKnowledge");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+    public void LoadCenterFromRoadToCenter()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("CenterFromRoadToCenter");
+        Debug.Log("Loaded the Center scene.");
+    }
+
+
     // Dormitory
     public void LoadDormitory()
     {
@@ -72,6 +158,12 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Dormitory scene.");
     }
 
+    public void LoadDormitoryFromHCandSD()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("DormitoryFromHCandSD");
+        Debug.Log("Loaded the Dormitory scene.");
+    }
 
 
     // ELC
@@ -91,6 +183,33 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the ENG scene.");
     }
 
+    public void LoadENGFromParkingLot()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("ENGFromParkingLot");
+        Debug.Log("Loaded the ENG scene.");
+    }
+
+    public void LoadENGFromTunnel()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("ENGFromTunnel");
+        Debug.Log("Loaded the ENG scene.");
+    }
+
+    public void LoadENGAuditoriumFromSNA()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("ENGAuditoriumFromSNA");
+        Debug.Log("Loaded the ENG scene.");
+    }
+
+    public void LoadENGLowerFromSNA()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("ENGLowerFromSNA");
+        Debug.Log("Loaded the ENG scene.");
+    }
 
 
     // Health Center
@@ -101,6 +220,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the HealthCenter scene.");
     }
 
+
     // Henry Ford
     public void LoadHenryFord()
     {
@@ -109,7 +229,20 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the HenryFord scene.");
     }
 
-  
+    public void LoadHenryFordFromDormitory()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("HenryFordFromDormitory");
+        Debug.Log("Loaded the HenryFord scene.");
+    }
+
+    public void LoadHenryFordFromPortalOfKnowledge()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("HenryFordFromPortalOfKnowledge");
+        Debug.Log("Loaded the HenryFord scene.");
+    }
+
 
     // Odeon
     public void LoadOdeon()
@@ -119,6 +252,21 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Odeon scene.");
     }
 
+    public void LoadOdeonCASEEntranceFromCASEIndoorsandCenter()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("OdeonCASEEntranceFromCASEIndoorsandCenter");
+        Debug.Log("Loaded the Odeon scene.");
+    }
+
+    public void LoadOdeonFromStudentCenter()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("OdeonFromStudentCenter");
+        Debug.Log("Loaded the Odeon scene.");
+    }
+
+
     // Parking Lot
     public void LoadParkingLot()
     {
@@ -126,6 +274,21 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("ParkingLot");
         Debug.Log("Loaded the Parking Lot scene.");
     }
+
+    public void LoadParkingLotFromELC()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("ParkingLotFromELC");
+        Debug.Log("Loaded the Parking Lot scene.");
+    }
+
+    public void LoadParkingLotFromSGKM()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("ParkingLotFromSGKM");
+        Debug.Log("Loaded the Parking Lot scene.");
+    }
+
 
     // Portal of Knowledge
     public void LoadPortalOfKnowledge()
@@ -135,6 +298,14 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Portal of Knowledge scene.");
     }
 
+    public void LoadPortalOfKnowledgeFromCenter()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("PortalOfKnowledgeFromCenter");
+        Debug.Log("Loaded the Portal of Knowledge scene.");
+    }
+
+
     // Road to Center
     public void LoadRoadtoCenter()
     {
@@ -142,6 +313,14 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("RoadToCenter");
         Debug.Log("Loaded the Road to Center scene.");
     }
+
+    public void LoadRoadtoCenterFromCenterandPortalOfKnowledge()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("RoadtoCenterFromCenterandPortalOfKnowledge");
+        Debug.Log("Loaded the Road to Center scene.");
+    }
+
 
     // Road to Gym
     public void LoadRoadtoGym()
@@ -151,6 +330,14 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Road to Gym scene.");
     }
 
+    public void LoadRoadtoGymCorner()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("RoadtoGymCorner");
+        Debug.Log("Loaded the Road to Gym scene.");
+    }
+
+
     // Gym
     public void LoadSAG()
     {
@@ -158,6 +345,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("SAG");
         Debug.Log("Loaded the gym scene.");
     }
+
 
     // S Dormitory
     public void LoadSDormitory()
@@ -167,13 +355,29 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the S Dormitory scene.");
     }
 
+
     // SGKM
     public void LoadSGKM()
     {
-        GameManager.isPlayerOutside = true;
+        GameManager.isPlayerOutside = false;
         SceneManager.LoadScene("SGKM");
         Debug.Log("Loaded the SGKM scene.");
     }
+
+    public void LoadSGKMFromCASEIndoorsandSOS()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("SGKMFromCASEIndoorsandSOS");
+        Debug.Log("Loaded the SGKM scene.");
+    }
+
+    public void LoadSGKMFromParkingLot()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("SGKMFromParkingLot");
+        Debug.Log("Loaded the SGKM scene.");
+    }
+
 
     // SKL
     public void LoadSKL()
@@ -183,6 +387,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the library scene.");
     }
 
+
     // SNA
     public void LoadSNA()
     {
@@ -190,6 +395,21 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("SNA");
         Debug.Log("Loaded the SNA scene.");
     }
+
+    public void LoadSNAFromENG()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("SNAFromENG");
+        Debug.Log("Loaded the SNA scene.");
+    }
+
+    public void LoadSNAFromENGAuditorium()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("SNAFromENGAuditorium");
+        Debug.Log("Loaded the SNA scene.");
+    }
+
 
     // SOS
     public void LoadSOS()
@@ -199,6 +419,21 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the SOS scene.");
     }
 
+    public void LoadSOSFromTunnelandOdeon()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("SOSFromTunnelandOdeon");
+        Debug.Log("Loaded the SOS scene.");
+    }
+
+    public void LoadSOSFromENG()
+    {
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("SOSFromENG");
+        Debug.Log("Loaded the SOS scene.");
+    }
+
+
     // Student Center
     public void LoadStudentCenter()
     {
@@ -206,6 +441,21 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("StudentCenter");
         Debug.Log("Loaded the StudentCenter scene.");
     }
+
+    public void LoadStudentCenterFromOdeon()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("StudentCenterFromOdeon");
+        Debug.Log("Loaded the StudentCenter scene.");
+    }
+
+    public void LoadStudentCenterFromTunnel()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("StudentCenterFromTunne");
+        Debug.Log("Loaded the StudentCenter scene.");
+    }
+
 
     // Tower
     public void LoadTower()
@@ -215,11 +465,26 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Tower scene.");
     }
 
+
     // Tunnel
     public void LoadTunnel()
     {
         GameManager.isPlayerOutside = false;
         SceneManager.LoadScene("Tunnel");
+        Debug.Log("Loaded the Tunnel scene.");
+    }
+
+    public void LoadTunnelFromSOS()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("TunnelFromSOS");
+        Debug.Log("Loaded the Tunnel scene.");
+    }
+
+    public void LoadTunnelFromENG()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("TunnelFromENG");
         Debug.Log("Loaded the Tunnel scene.");
     }
 }
