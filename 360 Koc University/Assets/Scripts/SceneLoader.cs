@@ -460,7 +460,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadStudentCenterFromTunnel()
     {
         GameManager.isPlayerOutside = false;
-        SceneManager.LoadScene("StudentCenterFromTunne");
+        SceneManager.LoadScene("StudentCenterFromTunnel");
         Debug.Log("Loaded the StudentCenter scene.");
     }
 
