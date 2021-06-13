@@ -6923,6 +6923,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1774479730}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &967161717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10800,6 +10811,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 881360289618099876, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: s_audiolist.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: afc0650054c6fca48a28e69565f91a1c, type: 3}
+    - target: {fileID: 881360289618099876, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: s_audiolist.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: a671cb0a2d3b1fd49b05631d6eccae64, type: 3}
     - target: {fileID: 881360291132314984, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: m_Name
@@ -10870,11 +10891,40 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 6379772199486897592, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59018e78e30e51340985351aba9a44f8, type: 3}
 --- !u!1 &1774479727 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3829355490392335553, guid: 59018e78e30e51340985351aba9a44f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774479726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1774479728 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 881360289727131842, guid: 59018e78e30e51340985351aba9a44f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774479726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca75164d3824a424e9da5d277e8d7389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1774479729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3829355491721942412, guid: 59018e78e30e51340985351aba9a44f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774479726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1774479730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2900153166542450064, guid: 59018e78e30e51340985351aba9a44f8,
     type: 3}
   m_PrefabInstance: {fileID: 1774479726}
   m_PrefabAsset: {fileID: 0}
@@ -11378,7 +11428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386cee119240b80499f27c2185e853a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCanvas: {fileID: 0}
+  mainCanvas: {fileID: 1774479729}
   tutorialCanvasTurkish: {fileID: 264415916}
   turkishElements:
   - {fileID: 2123132720}
@@ -13119,6 +13169,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1774479730}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!224 &1459948731436428869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13340,7 +13401,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1774479728}
         m_MethodName: LoadRoadtoGym
         m_Mode: 1
         m_Arguments:
