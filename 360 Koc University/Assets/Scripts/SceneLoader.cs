@@ -136,13 +136,6 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the Center scene.");
     }
 
-    public void LoadCenterFromPortalOfKnowledge()
-    {
-        GameManager.isPlayerOutside = true;
-        SceneManager.LoadScene("CenterFromPortalOfKnowledge");
-        Debug.Log("Loaded the Center scene.");
-    }
-
     public void LoadCenterFromRoadToCenter()
     {
         GameManager.isPlayerOutside = true;
