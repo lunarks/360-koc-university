@@ -5,6 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    // Load language selection and reset the game
+    public void ResetGame()
+    {
+        GameManager.isTrophyCollected = false;
+        GameManager.isStaplerCollected = false;
+        GameManager.isTurkishLangaugeSelected = false;
+        GameManager.isEnglishLanguageSelected = false;
+        GameManager.isTutorialCompleted = false;
+        GameManager.isBirdSoundActive = true;
+        GameManager.isPlayerOutside = true;
+        SceneManager.LoadScene("Language Selection");
+    }
+
     // Bus Stop
     public void LoadBusStop()
     {

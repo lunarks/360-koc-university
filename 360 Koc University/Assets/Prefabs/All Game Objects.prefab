@@ -1880,7 +1880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back to Main Menu
+  m_text: Back to Language Selection
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ee8f7a58911d63489ac9e580d7cd43b, type: 2}
   m_sharedMaterial: {fileID: 9037271161679360329, guid: 8ee8f7a58911d63489ac9e580d7cd43b,
@@ -1968,7 +1968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &670092774913457845
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2574,7 +2574,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 670092776653396833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 881360289727131842}
+        m_MethodName: ResetGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &670092776653396833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3095,8 +3106,8 @@ MonoBehaviour:
   mapCanvasEnglish: {fileID: 246516883822297428}
   settingsCanvasTurkish: {fileID: 4595910321008120603}
   settingsCanvasEnglish: {fileID: 5058645475023826720}
-  settingsButtonTurkish: {fileID: 0}
-  settingsButtonEnglish: {fileID: 0}
+  settingsButtonTurkish: {fileID: 5035095515559218789}
+  settingsButtonEnglish: {fileID: 6379772200493096931}
 --- !u!1 &881360291053627821
 GameObject:
   m_ObjectHideFlags: 0
@@ -28754,6 +28765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa2fe6094fa1614692234fb75935770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnOnBirdSoundsButtonEnglish: {fileID: 670092776190036025}
+  turnOffBirdSoundsButtonEnglish: {fileID: 670092774913457844}
+  turnOnBirdSoundsButtonTurkish: {fileID: 8122447003126914114}
+  turnOffBirdSoundsButtonTurkish: {fileID: 8122447002599748001}
 --- !u!1 &7852203806428514955
 GameObject:
   m_ObjectHideFlags: 0
@@ -28989,7 +29004,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8122447002211864408}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 881360289727131842}
+        m_MethodName: ResetGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8122447002211864408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29231,7 +29257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8122447002599748000
 RectTransform:
   m_ObjectHideFlags: 0
