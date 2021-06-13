@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SceneLanguage : MonoBehaviour
 {
+    public GameObject mainCanvas;
+
     public GameObject boyMentor;
     public GameObject girlMentor;
 
@@ -36,6 +38,11 @@ public class SceneLanguage : MonoBehaviour
             Destroy(girlMentor);
             Destroy(mapCanvasTurkish);
             Destroy(settingsCanvasTurkish);
+        }
+
+        if (GameManager.isTutorialCompleted)
+        {
+            mainCanvas.SetActive(true);
         }
     }
 }
