@@ -15,4 +15,6 @@ public class GameManager : MonoBehaviour
     static public bool isTutorialCompleted = false;
 
     static public bool isBirdSoundActive = true;
+
+    static public bool isPlayerOutside = true;
 }
