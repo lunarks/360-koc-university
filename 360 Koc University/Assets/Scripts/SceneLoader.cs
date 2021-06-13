@@ -365,6 +365,13 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the SGKM scene.");
     }
 
+    public void LoadSGKMFromQuiz()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("SGKMFromQuiz");
+        Debug.Log("Loaded the SGKM scene.");
+    }
+
     public void LoadSGKMFromCASEIndoorsandSOS()
     {
         GameManager.isPlayerOutside = false;
