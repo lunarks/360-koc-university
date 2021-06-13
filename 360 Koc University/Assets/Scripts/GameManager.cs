@@ -13,4 +13,6 @@ public class GameManager : MonoBehaviour
     static public bool isEnglishLanguageSelected = false;
 
     static public bool isTutorialCompleted = false;
+
+    static public bool isBirdSoundActive = true;
 }
