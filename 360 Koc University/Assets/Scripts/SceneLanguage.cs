@@ -30,7 +30,7 @@ public class SceneLanguage : MonoBehaviour
         if (isLanguageTurkish)
         {
             Destroy(boyMentor);
-            girlMentor.SetActive(true);
+            // girlMentor.SetActive(true);
             Destroy(mapCanvasEnglish);
             Destroy(settingsCanvasEnglish);
             Destroy(settingsButtonEnglish);
@@ -38,7 +38,7 @@ public class SceneLanguage : MonoBehaviour
 
         if (isLanguageEnglish)
         {
-            boyMentor.SetActive(true);
+            // boyMentor.SetActive(true);
             Destroy(girlMentor);
             Destroy(mapCanvasTurkish);
             Destroy(settingsCanvasTurkish);
