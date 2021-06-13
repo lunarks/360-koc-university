@@ -92,6 +92,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Loaded the CASE Outdoors scene.");
     }
 
+
     // Center
     public void LoadCenter()
     {
@@ -367,7 +368,14 @@ public class SceneLoader : MonoBehaviour
     public void LoadSGKMFromCASEIndoorsandSOS()
     {
         GameManager.isPlayerOutside = false;
-        SceneManager.LoadScene("SGKMFromCASEIndoorsandSOS");
+        SceneManager.LoadScene("SGKMFromCASE_IndoorsandSOS");
+        Debug.Log("Loaded the SGKM scene.");
+    }
+
+    public void LoadSGKMFromCASEOutdoors()
+    {
+        GameManager.isPlayerOutside = false;
+        SceneManager.LoadScene("SGKMFromCASE_Outdoors");
         Debug.Log("Loaded the SGKM scene.");
     }
 
