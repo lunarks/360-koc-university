@@ -436,7 +436,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadSOSFromSGKM()
     {
-        GameManager.isPlayerOutside = true;
+        GameManager.isPlayerOutside = false;
         SceneManager.LoadScene("SOSFromSGKM");
         Debug.Log("Loaded the SOS scene.");
     }
