@@ -220,6 +220,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 850327363669230864, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 862770827433248247, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -233,11 +238,16 @@ PrefabInstance:
     - target: {fileID: 881360289618099876, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: s_audiolist.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 881360289618099876, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: s_audiolist.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: d83085d34afab96499d5cc69c90dc7dd, type: 3}
+    - target: {fileID: 881360289618099876, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: s_audiolist.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: bc396513c2263724788015787c568f5a, type: 3}
     - target: {fileID: 881360291132314984, guid: 59018e78e30e51340985351aba9a44f8,
@@ -310,7 +320,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 6334390194565255663, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6379772199486897592, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379772200899812758, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 0
