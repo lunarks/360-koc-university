@@ -15,7 +15,7 @@ public class SceneLoader : MonoBehaviour
         GameManager.isTutorialCompleted = false;
         GameManager.isBirdSoundActive = true;
         GameManager.isPlayerOutside = true;
-        SceneManager.LoadScene("Language Selection");
+        SceneManager.LoadScene("LanguageSelection");
     }
 
     // Bus Stop
