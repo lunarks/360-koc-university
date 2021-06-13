@@ -71,6 +71,7 @@ public class QuizManager : MonoBehaviour
         if (currentTime <= 0)
         {
             gameStatus = GameStatus.NEXT;
+            quizUI.GamePanel.SetActive(false);
             quizUI.GameOverPanel.SetActive(true);
         }
     }
@@ -110,6 +111,7 @@ public class QuizManager : MonoBehaviour
             else
             {
                 gameStatus = GameStatus.NEXT;
+                quizUI.GamePanel.SetActive(false);
                 quizUI.GameOverPanel.SetActive(true);
             }
         }
