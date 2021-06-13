@@ -15,6 +15,9 @@ public class SceneLanguage : MonoBehaviour
     public GameObject settingsCanvasTurkish;
     public GameObject settingsCanvasEnglish;
 
+    public GameObject settingsButtonTurkish;
+    public GameObject settingsButtonEnglish;
+
     private bool isLanguageTurkish = false;
     private bool isLanguageEnglish = false;
 
@@ -30,6 +33,7 @@ public class SceneLanguage : MonoBehaviour
             girlMentor.SetActive(true);
             Destroy(mapCanvasEnglish);
             Destroy(settingsCanvasEnglish);
+            Destroy(settingsButtonEnglish);
         }
 
         if (isLanguageEnglish)
@@ -38,6 +42,7 @@ public class SceneLanguage : MonoBehaviour
             Destroy(girlMentor);
             Destroy(mapCanvasTurkish);
             Destroy(settingsCanvasTurkish);
+            Destroy(settingsButtonTurkish);
         }
 
         if (GameManager.isTutorialCompleted)
