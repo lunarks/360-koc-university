@@ -5,6 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    // Loads the mini-quiz game
+    public void LoadQuizGame()
+    {
+        if (GameManager.isTurkishLangaugeSelected)
+        {
+            SceneManager.LoadScene("QuizTurkish");
+        }
+
+        if (GameManager.isEnglishLanguageSelected)
+        {
+            SceneManager.LoadScene("QuizEnglish");
+        }
+    }
+
     // Load language selection and reset the game
     public void ResetGame()
     {
