@@ -7022,6 +7022,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1774479744}
+        m_MethodName: stop_sound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &967161717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10889,6 +10900,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 246516883822297416, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516883822297416, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516883822297416, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 246516883822297428, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 850327363669230864, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: m_IsActive
@@ -10989,6 +11020,16 @@ PrefabInstance:
       propertyPath: trophyObject
       value: 
       objectReference: {fileID: 1424801665917095230}
+    - target: {fileID: 1245911461628610148, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245911461628610148, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 2087883981313268541, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -10998,6 +11039,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068862482957890619, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -109
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068862482957890619, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 6334390194565255661, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
@@ -11018,6 +11069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379772199644875813, guid: 59018e78e30e51340985351aba9a44f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6379772200899812779, guid: 59018e78e30e51340985351aba9a44f8,
         type: 3}
@@ -11171,6 +11227,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1774479726}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1774479744 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6379772199669045802, guid: 59018e78e30e51340985351aba9a44f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774479726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b24df1a84750141bee69337d2368ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1788763847
 GameObject:
   m_ObjectHideFlags: 0
@@ -15331,6 +15399,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1774479731}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1774479732}
+        m_MethodName: playerGoesOutside
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
